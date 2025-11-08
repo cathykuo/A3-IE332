@@ -10,7 +10,7 @@ if (!isset($_SESSION['role']) || $_SESSION['role'] !== 'SupplyChainManager') {
 // Database connection
 $host = "mydb.itap.purdue.edu";
 $user = "kuo104";       // or your DB username
-$pass = "Lunchbox987";           // add password if needed
+$pass = "";           // add password if needed
 $dbname = "kuo104";      // replace with your actual DB name
 
 $conn = new mysqli($host, $user, $pass, $dbname);

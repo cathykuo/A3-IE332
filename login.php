@@ -6,7 +6,7 @@ session_start();
 // 1. Database connection (same as your working db_test.php)
 $host = "mydb.itap.purdue.edu";
 $user = "kuo104";
-$pass = "Lunchbox987";
+$pass = "";
 $dbname = "kuo104";
 
 $conn = new mysqli($host, $user, $pass, $dbname);
