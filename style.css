@@ -126,3 +126,20 @@ input:focus {
   label { justify-self: start; }
   .btn { width: 100%; }
 }
+
+.error-msg {
+  color: #b00020;
+  background-color: #fde4e7;
+  border: 1px solid #b00020;
+  padding: 8px 10px;
+  border-radius: 8px;
+  margin-bottom: 14px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.error-input {
+  border-color: #b00020 !important;
+  box-shadow: 0 0 0 3px rgba(176, 0, 32, 0.12);
+}
+

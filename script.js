@@ -1,4 +1,3 @@
-
 document.getElementById('loginForm').addEventListener('submit', (e) => {
   e.preventDefault();
   const u = document.getElementById('username').value.trim();
